@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Week 8 Lab</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Rock, Paper, Scissors!</h1>
+        <h3>
+            <strong class='gold'>Paper</strong> beats <strong class='red'>Rock</strong>, <strong class='gold'>Scissors</strong> beats <strong class='red'>Paper</strong>, <strong class='gold'>Rock</strong> beats <strong class='red'>Scissors</strong>
+        </h3>
+    </div>
+    <div class="buttons">
+        <button value='Rock' onmouseover="display('Rock')" onmouseleave="reset()">✊</button>
+        <button value='Paper' onmouseover="display('Paper')" onmouseleave="reset()">✋</button>
+        <button value='Scissors' onmouseover="display('Scissors')" onmouseleave="reset()">✌</button>
+    </div>
+    <div>
+        <h2 id="message"></h2>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
