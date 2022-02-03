@@ -34,10 +34,6 @@ button{
     font-size: 48px;
     margin-left:5px;
     margin-right:5px;
-    transition: all .3s ease-in-out;
-}
-button:hover{
-    transform: scale(1.5) rotate(15deg);
 }
 #message{
     text-align: center;
@@ -59,4 +55,20 @@ h3{
 }
 .red{
     color: red;
+}
+@media only screen and (max-width: 1200px) {
+    h1, h2{
+        font-size: 40px;
+    }
+    .title{
+        padding-top: 10vh;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    button{
+        transition: all .3s ease-in-out;
+    }
+    button:hover{
+        transform: scale(1.5) rotate(15deg);
+    }
 }
